@@ -6,4 +6,5 @@ def my_collect(collectArg)
     yield collectArg[i]
     i += 1 
   end
+  return 
 end
